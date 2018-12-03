@@ -11,6 +11,7 @@
 }
 
 .modal_info {
+  width: 42%;
   background: #FCF9F2;
   padding: 50px 100px;
   text-align: center;
@@ -180,5 +181,50 @@ button.modal_close span:after {
 }
 .carousel-slide {
   margin: 0 auto;
-  width: 80% !important;
+  width: 100%;
+}
+.noscroll { overflow-y:scroll; }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (max-width: 1450px) {
+  .modal_info { 
+    padding: 50px 80px;
+    width: 48%;
+  }
+  .carousel-slide {
+    width: 100%;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (max-width: 1200px) {
+  .modal_info { 
+    padding: 50px 60px;
+    width: 60%;
+  }
+  .carousel-slide {
+    width: 100%;
+  }
+}
+/* Large devices (desktops, 992px and up)*/
+@media (max-width: 992px) { 
+  .modal_info { 
+    padding: 50px 30px;
+    width: 70%;
+  }
+}
+/* Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) {
+  .modal_info { 
+    padding: 50px 30px;
+    width: 83%;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) { 
+  .modal_info { 
+    padding: 50px 15px;
+    width: 83%;
+  }
 }
