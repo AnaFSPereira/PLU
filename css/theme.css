@@ -5331,7 +5331,7 @@ button.bg-dark:focus {
 
 .pb-2,
 .py-2 {
-  padding-bottom: 0.75rem !important; }
+  padding-bottom: -1.25rem !important; }
 
 .pl-2,
 .px-2 {
@@ -5388,7 +5388,7 @@ button.bg-dark:focus {
 
 .pb-5,
 .py-5 {
-  padding-bottom: 4.5rem !important; }
+  padding-bottom: 12.5rem !important; }
 
 .pl-5,
 .px-5 {

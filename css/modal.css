@@ -97,7 +97,7 @@ a.open_button.load {
 }
 
 button.modal_close {
-  background: #363D4E;
+  background: #91d660;
   border: none;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -120,7 +120,7 @@ button.modal_close {
 }
 
 button.modal_close:hover {
-  background: #3E465A;
+  background: #91d660;
   -webkit-transform: rotate(360deg) scale(1.10);
   -moz-transform: rotate(360deg) scale(1.10);
   -ms-transform: rotate(360deg) scale(1.10);
