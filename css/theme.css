@@ -1637,13 +1637,13 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #12bbad;
-  border-color: #12bbad;
+  background-color: #e75757;
+  border-color: #e75757;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075); }
   .btn-primary:hover {
     color: #fff;
-    background-color: #0f988d;
-    border-color: #0e8c82; }
+    background-color: #91d660;
+    border-color: #91d660; }
   .btn-primary:focus, .btn-primary.focus {
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 0.2rem rgba(18, 187, 173, 0.5); }
   .btn-primary.disabled, .btn-primary:disabled {
