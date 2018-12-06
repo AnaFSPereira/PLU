@@ -226,7 +226,7 @@ function myMap() {
         document.getElementById("googleMap"), 
         mapProp
     )
-    
+    //janela de informação
     var contentString = '<div id="content"><div id="siteNotice"></div>'+
         '<h3 id="firstHeading" class="firstHeading">Associação Lousada Animal</h1>'+
         '<div id="bodyContent"><p> <b>Atuamos em Lousada</b> </p>' +
