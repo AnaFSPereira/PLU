@@ -22,8 +22,8 @@ $(document).ready(function(){
         var service_id = "default_service";
         var template_id = "template_1xnx2ebx";
         emailjs.send(service_id,template_id,template_params)
+         //pop up mais estético - uso de sweetalert2
         .then(function(response){
-            //pop up mais estético - uso de sweetalert2
             swal(
                 'Obrigado!',
                 'A sua mensagem foi enviada.',
@@ -41,3 +41,6 @@ $(document).ready(function(){
         });
     });
 });
+
+
+
