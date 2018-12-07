@@ -34,8 +34,8 @@ $(document).ready(function(){
 
         },  function(error){
             swal(
-                'Obrigado!',
-                'A sua mensagem foi enviada.',
+                'Atenção!',
+                'A sua mensagem não foi enviada.',
                 'error'
             );
         });
